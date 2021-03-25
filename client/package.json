@@ -1,0 +1,19 @@
+{
+  "name": "@lucas-becker/chat-client",
+  "version": "1.0.0",
+  "description": "A chat developed on the JS Expert free week. Powered by: @erickwendel",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "hacker-chat": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["CLI","chat"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81"
+  }
+}
